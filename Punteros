@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){
+    int a = 5;
+    int *puntero = &a;
+    
+    printf("Valor de la "
+    "direccion de a: %d\n", &a);
+    
+    printf("Valor almacenado en la "
+    "direccion de a: %d\n", puntero);
+    
+    printf("Valor que contiene la  "
+    "direccion de a: %d\n", *puntero);
+    
+    return 0;
+}
